@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        *:focus {
+            outline: none;
+        }
+
+        body {
+            background-color: turquoise;
+            padding: 40px 0px 0px 0px;
+        }
+
+        .container {
+            margin: auto;
+            width: 60%;
+            display: grid;
+            grid-template-columns: 40% auto;
+            border: 20px groove rgba(15, 98, 206, 0.743);
+            background-color: white;
+            
+            
+        }
+
+        .box1 {
+            border-right: 1px solid rgba(0, 0, 0, 0.338);
+
+
+            padding: 5px;
+        }
+
+        .box2 {
+            margin: 0px 0px 50px 2px;
+            border-width: 0px 2px 0px 0px;
+
+            border-color: black;
+
+        }
+
+        .sign_hed {
+            margin: 30px;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        .nm_hd,
+        .mal_hd,
+        .pwd_hd {
+            margin: 10px;
+        }
+
+        input[type='text'],
+        [type='email'],
+        [type='password'] {
+            border-width: 0px 0px 2px 0px;
+            margin: 10px;
+            opacity: 0.5;
+            width: 100%;
+        }
+
+        input[type='submit'] {
+            padding: 5px;
+            border-radius: 10px;
+            width: 150px;
+            background-image: linear-gradient(36deg, #A100ffff, #119cfdff);
+            color: white;
+            border: 0px;
+
+        }
+
+        .sbt {
+            display: grid;
+            justify-content: center;
+        }
+
+        .frm_box {
+            display: grid;
+            justify-content: center;
+            width: 70%;
+        }
+
+        .fb img {
+
+            width: 50px;
+            height: 50px;
+        }
+
+        .social_media {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+
+        }
+
+        .crt_acc a {
+            text-decoration: none;
+            color: rgb(51, 155, 199);
+            font-weight: bold;
+
+        }
+
+        .crt_acc {
+            text-align: center;
+        }
+
+        .fb,
+        .twt,
+        .linkin,
+        .insta {
+            margin: 15px 10px;
+        }
+
+        .fgt_pwd {
+            text-align: center;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1"><img src="https://i.ibb.co/WGg9sdp/jp.jpg" width="100%" height="90%" alt="jp">
+            <div class="crt_acc"><a href="#">Create an account</a></div>
+        </div>
+        <div class="box2">
+            <div class="sign_hed">Sign Up</div>
+            <div class="frm_box">
+                <form action="get">
+                    <div class="nm">
+                        <div class="nm_hd"><img src="https://th.bing.com/th/id/R.8cdd481c8e7ee7ff2e2db12d38682ef6?rik=kzwHTTTyQfpEbw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_218087.png&ehk=A4w%2fBoJ5kRUR3yKmm%2fCnjmiSP444WLtz20HSwPZagFk%3d&risl=&pid=ImgRaw&r=0" alt="" width="15px" height="12px"> Name</div>
+                        <div class="nm_inp"><input type="text" name="nm"></div>
+                    </div>
+                    <div class="mal">
+                        <div class="mal_hd"><img src="https://th.bing.com/th/id/R.4c26b402671d798fda3817f43dd0329b?rik=8CnI2vTTucfgGg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_465970.png&ehk=c7c1yosODA02GBmRy3Iiiiy6jkT1AwuprjM3O%2frodQM%3d&risl=&pid=ImgRaw&r=0" alt="" width="18px" height="18px">Email</div>
+                        <div class="mal_imp"><input type="email" name="mail"></div>
+                    </div>
+                    <div class="pwd">
+                        <div class="pwd_hd"><img src="https://th.bing.com/th/id/R.aeecb5225962e74d6f2dd4d9a262d2ba?rik=pJKV4S49tfTMOw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_410821.png&ehk=OM8JaDxg35TqKASV2uVEd7ln%2b5Mq5BBpVdAdsHqraXQ%3d&risl=&pid=ImgRaw&r=0" alt="" width="15px" height="12px">Password</div>
+                        <div class="pwd_inp"><input type="password" name="pwd"></div>
+                    </div>
+                    <div class="fgt_pwd"><a href=""> <img src="https://th.bing.com/th/id/R.a5c4ec2413cdf91b362aac5002c29925?rik=gKEoC%2bjP0IyCjw&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_248015.png&ehk=oKZQoPcI36KU5TMXQfrA4dD4S7HH7%2b%2flDEH7q2inXX0%3d&risl=&pid=ImgRaw&r=0" alt="" width="15px" height="12px"> Forget password ?</a></div>
+                    <div class="sbt"><input type="submit" value="Submit"></div>
+                    <div class="social_media">
+                        <div class="fb"><img
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1200px-Facebook_icon.svg.png"
+                                alt=""></div>
+                        <div class="twt"><img
+                                src="https://th.bing.com/th/id/R.9a3a06f78cc0a8d79fce59e2de6da146?rik=nLAu3Z%2f0QUb%2fVw&riu=http%3a%2f%2ficons.iconarchive.com%2ficons%2fiynque%2fios7-style%2f1024%2fTwitter-icon.png&ehk=eD3Hc5yQAyP3AKPJoYHB8yeWKwKdaVAswR5kxmodex4%3d&risl=&pid=ImgRaw&r=0"
+                                alt="twitter" width="50px" height="50px"></div>
+                        <div class="linkin"><img
+                                src="https://th.bing.com/th/id/R.21fba12531ac377e1642a01921db9fbd?rik=ErbH90Kfy3L6tg&riu=http%3a%2f%2fencomium.ng%2fwp-content%2fuploads%2f2016%2f01%2fLinkedIn-Logo.png&ehk=qo9l10kLERwTTr5WEWyHeVR%2bKIWh4CchVBnnAxyz3ic%3d&risl=&pid=ImgRaw&r=0"
+                                alt="linkedin" width="50px" height="50px"></div>
+                        <div class="insta"><img
+                                src="https://th.bing.com/th/id/R.29f05337b26a44c64a23e61c6046e7fc?rik=amVBPMjR0aYLEQ&riu=http%3a%2f%2fwww.brandinglosangeles.com%2fwp-content%2fuploads%2fInstagram_logo_2016.svg.png&ehk=2l3yNN9vQJ%2fQ5coSsDXZrx%2fkdFNmyfF3TBS8nmiOr%2fM%3d&risl=&pid=ImgRaw&r=0"
+                                alt="Instagram" width="50px" height="50px"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
